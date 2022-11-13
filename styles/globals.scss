@@ -1,0 +1,61 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(90deg, rgba(61,94,149,1) 0%, rgba(45,205,186,1) 100%);
+  color: #fff;
+  font-size: 20px;
+}
+
+#__next {
+  min-height: 100vh;
+  display: grid;
+  grid-auto-rows: auto 1fr auto;
+}
+
+main {
+  padding: 20px;
+}
+
+header,
+footer {
+  min-height: 80px;
+}
+
+header {
+  background-image: linear-gradient(90deg, rgba(174,198,238,1) 0%, rgba(148,233,223,1) 100%);
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+footer {
+background-image: linear-gradient(90deg, rgba(174,198,238,1) 0%, rgba(148,233,223,1) 100%);
+  text-align: center;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.card {
+      display: flex;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 300px;
+    margin-bottom: 10px;
+}
